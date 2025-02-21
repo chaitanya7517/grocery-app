@@ -1,0 +1,15 @@
+2025-02-20 23:53:50.140697+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id bigint not null, name varchar(255), product_ids bigint array, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id bigint not null, name varchar(255), product_ids bigint array, primary key (id)) [42001-232]
+2025-02-21 00:02:12.057830+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id bigint not null, name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table order (id bigint not null, name varchar(255), primary key (id)) [42001-232]
+2025-02-21 00:02:12.065462+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_product_ids add constraint FKbaxlaub642o9idbkyniiacy63 foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_product_ids add constraint FKbaxlaub642o9idbkyniiacy63 foreign key (order_id) references order [42001-232]
+2025-02-21 00:03:31.068547+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id bigint not null, name varchar(255), primary key (id))"; expected "identifier"; SQL statement:
+create table order (id bigint not null, name varchar(255), primary key (id)) [42001-232]
+2025-02-21 00:03:31.075371+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table if exists order_product_ids add constraint FKbaxlaub642o9idbkyniiacy63 foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table if exists order_product_ids add constraint FKbaxlaub642o9idbkyniiacy63 foreign key (order_id) references order [42001-232]
